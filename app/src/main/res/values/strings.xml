@@ -1,5 +1,11 @@
 <resources>
     <string name="app_name">Wellbeing Playground</string>
-    <string name="title_activity_maps">MapsActivity</string>
-    <string name="maps_api_key">AIzaSyBawyuuvYl2ufBkOEk25UFyxPxiSa-icsA</string>
+    <string name="maps_api_key">AIzaSyB8L4u1Wz1DZ1Sv0WKYW84AVV12DAFddMY</string>
+    <string-array name="filter_options">
+        <item>Date</item>
+        <item>Walking Time</item>
+        <item>Distance</item>
+        <item>Average Speed</item>
+        <item>Calories Burned</item>
+    </string-array>
 </resources>
