@@ -51,7 +51,7 @@ class SettingFragment : Fragment(R.layout.fragment_settings) {
             .putFloat(Constants.KEY_WEIGHT,weightText.toFloat())
             .apply()
 
-        val toolbarText = "let's go,$nameText"
+        val toolbarText = "let's go, $nameText"
         requireActivity().tvToolbarTitle.text = toolbarText
         return true
 

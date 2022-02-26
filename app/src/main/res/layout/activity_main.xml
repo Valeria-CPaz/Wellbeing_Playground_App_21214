@@ -19,15 +19,16 @@
             android:id="@+id/toolbar"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:background="@android:color/holo_orange_light">
+            android:background="@color/dark_blue"
+            app:titleTextAppearance="@style/AppTheme">
 
             <com.google.android.material.textview.MaterialTextView
                 android:id="@+id/tvToolbarTitle"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:gravity="center_vertical"
-                android:text="Walking App"
-                android:textColor="@android:color/background_light"
+                android:text="Wellbeing Playground"
+                android:textColor="@color/off_white"
                 android:textSize="30sp"
                 android:textStyle="bold"
                 app:layout_constraintBottom_toBottomOf="parent"
