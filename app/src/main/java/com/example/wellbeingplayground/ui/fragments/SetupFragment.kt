@@ -7,7 +7,7 @@ import androidx.fragment.app.Fragment
 import androidx.navigation.NavOptions
 import androidx.navigation.fragment.findNavController
 import com.example.wellbeingplayground.R
-import com.example.wellbeingplayground.interfaces.Constants
+import com.example.wellbeingplayground.others.Constants
 import com.google.android.material.snackbar.Snackbar
 import dagger.hilt.android.AndroidEntryPoint
 import kotlinx.android.synthetic.main.activity_main.*

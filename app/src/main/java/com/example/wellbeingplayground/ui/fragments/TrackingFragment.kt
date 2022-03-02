@@ -9,7 +9,7 @@ import androidx.lifecycle.Observer
 import androidx.navigation.fragment.findNavController
 import com.example.wellbeingplayground.R
 import com.example.wellbeingplayground.database.Walk
-import com.example.wellbeingplayground.interfaces.Constants
+import com.example.wellbeingplayground.others.Constants
 import com.example.wellbeingplayground.others.TrackingUtility
 import com.example.wellbeingplayground.services.Polyline
 import com.example.wellbeingplayground.services.TrackingServices
@@ -22,7 +22,6 @@ import com.google.android.material.dialog.MaterialAlertDialogBuilder
 import com.google.android.material.snackbar.Snackbar
 import dagger.hilt.android.AndroidEntryPoint
 import kotlinx.android.synthetic.main.fragment_tracking.*
-import java.nio.file.Files.delete
 import java.util.*
 import javax.inject.Inject
 import kotlin.math.round
@@ -125,7 +124,7 @@ class TrackingFragment : Fragment(R.layout.fragment_tracking) {
     private fun showCancelTrackingDialog(){
         val dialog = MaterialAlertDialogBuilder(requireContext(),R.style.AlertDialogTheme)
             .setTitle("Cancel the Walk ? ")
-            .setMessage("Are You sure to cancel walk and delete all its data")
+            .setMessage("Are You sure you want to cancel walk and delete all its data")
             .setIcon(R.drawable.ic_delete)
             .setPositiveButton("yes"){_,_ ->
                 stopWalk()

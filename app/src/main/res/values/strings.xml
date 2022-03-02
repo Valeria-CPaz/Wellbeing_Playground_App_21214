@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Wellbeing Playground</string>
+    <string name="app_name">WellbeingPlayground</string>
     <string name="maps_api_key">AIzaSyB8L4u1Wz1DZ1Sv0WKYW84AVV12DAFddMY</string>
     <string-array name="filter_options">
         <item>Date</item>

@@ -1,13 +1,14 @@
-package com.example.wellbeingplayground.interfaces
+package com.example.wellbeingplayground.dependencies_injection
 
 import android.content.Context
 import android.content.SharedPreferences
 import androidx.room.Room
 import com.example.wellbeingplayground.database.WalkingDatabase
-import com.example.wellbeingplayground.interfaces.Constants.KEY_FIRST_TIME_TOGGLE
-import com.example.wellbeingplayground.interfaces.Constants.KEY_NAME
-import com.example.wellbeingplayground.interfaces.Constants.KEY_WEIGHT
-import com.example.wellbeingplayground.interfaces.Constants.SHARED_PREFERENCES_NAME
+import com.example.wellbeingplayground.others.Constants
+import com.example.wellbeingplayground.others.Constants.KEY_FIRST_TIME_TOGGLE
+import com.example.wellbeingplayground.others.Constants.KEY_NAME
+import com.example.wellbeingplayground.others.Constants.KEY_WEIGHT
+import com.example.wellbeingplayground.others.Constants.SHARED_PREFERENCES_NAME
 import dagger.Module
 import dagger.Provides
 import dagger.hilt.InstallIn

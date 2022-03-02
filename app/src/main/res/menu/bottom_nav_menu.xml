@@ -3,14 +3,17 @@
 
     <item android:id="@+id/walkFragment"
         android:title="Your Walks"
+        android:fontFamily="monospace"
         android:icon="@drawable/ic_walk" />
 
     <item android:id="@+id/statisticsFragment"
         android:title="Statistics"
+        android:fontFamily="monospace"
         android:icon="@drawable/ic_graph" />
 
     <item android:id="@+id/settingsFragment"
         android:title="Settings"
+        android:fontFamily="monospace"
         android:icon="@drawable/ic_settings" />
 
 </menu>

@@ -12,7 +12,7 @@ import androidx.navigation.fragment.findNavController
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.example.wellbeingplayground.R
 import com.example.wellbeingplayground.adapters.WalkAdapter
-import com.example.wellbeingplayground.interfaces.Constants.REQUEST_CODE_LOCATION_PERMISSION
+import com.example.wellbeingplayground.others.Constants.REQUEST_CODE_LOCATION_PERMISSION
 import com.example.wellbeingplayground.others.SortType
 import com.example.wellbeingplayground.others.TrackingUtility
 import com.example.wellbeingplayground.ui.viewmodels.MainViewModel

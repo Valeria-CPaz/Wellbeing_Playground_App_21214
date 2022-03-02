@@ -1,4 +1,4 @@
-package com.example.wellbeingplayground.interfaces
+package com.example.wellbeingplayground.others
 
 import android.graphics.Color
 

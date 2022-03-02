@@ -18,12 +18,11 @@ import androidx.lifecycle.LifecycleService
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.Observer
 import com.example.wellbeingplayground.R
-import com.example.wellbeingplayground.interfaces.Constants
-import com.example.wellbeingplayground.interfaces.Constants.ACTION_PAUSE_SERVICE
-import com.example.wellbeingplayground.interfaces.Constants.ACTION_START_OR_RESUME_SERVICE
-import com.example.wellbeingplayground.interfaces.Constants.NOTIFICATION_ID
+import com.example.wellbeingplayground.others.Constants
+import com.example.wellbeingplayground.others.Constants.ACTION_PAUSE_SERVICE
+import com.example.wellbeingplayground.others.Constants.ACTION_START_OR_RESUME_SERVICE
+import com.example.wellbeingplayground.others.Constants.NOTIFICATION_ID
 import com.example.wellbeingplayground.others.TrackingUtility
-import com.example.wellbeingplayground.ui.MainActivity
 import com.google.android.gms.location.FusedLocationProviderClient
 import com.google.android.gms.location.LocationCallback
 import com.google.android.gms.location.LocationRequest

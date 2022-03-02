@@ -1,10 +1,11 @@
-package com.example.wellbeingplayground.interfaces
+package com.example.wellbeingplayground.dependencies_injection
 
 import android.app.PendingIntent
 import android.content.Context
 import android.content.Intent
 import androidx.core.app.NotificationCompat
 import com.example.wellbeingplayground.R
+import com.example.wellbeingplayground.others.Constants
 import com.example.wellbeingplayground.ui.MainActivity
 import com.google.android.gms.location.FusedLocationProviderClient
 import dagger.Module

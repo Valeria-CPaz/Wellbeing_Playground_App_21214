@@ -37,8 +37,8 @@ class CustomMarkerView(
         val avgSpeed = "${walk.avgSpeedInKMH}km/h"
         tvAvgSpeed.text = avgSpeed
 
-        val distanceinKM = "${walk.distanceInMeters / 1000f}km"
-        tvDistance.text = distanceinKM
+        val distanceInKM = "${walk.distanceInMeters / 1000f}km"
+        tvDistance.text = distanceInKM
 
         tvDuration.text = TrackingUtility.getFormattedStopWatchTime(walk.timeInMillis)
 

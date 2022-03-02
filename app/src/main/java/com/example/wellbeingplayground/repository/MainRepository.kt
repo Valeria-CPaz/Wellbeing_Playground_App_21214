@@ -6,7 +6,7 @@ import com.example.wellbeingplayground.database.WalkDAO
 import javax.inject.Inject
 
 class MainRepository @Inject constructor(
-    var walkDAO: WalkDAO
+    val walkDAO: WalkDAO
 ) {
 
     suspend fun insertWalk(walk:Walk) = walkDAO.insertWalk(walk)
