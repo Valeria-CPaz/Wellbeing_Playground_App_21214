@@ -5,6 +5,7 @@ import androidx.room.Entity
 import androidx.room.PrimaryKey
 import java.sql.Timestamp
 
+// variables for DB
 @Entity(tableName = "walking_table")
 data class Walk(
     var img: Bitmap? = null,

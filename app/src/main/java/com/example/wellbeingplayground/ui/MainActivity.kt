@@ -12,10 +12,14 @@ import com.example.wellbeingplayground.others.Constants
 import dagger.hilt.android.AndroidEntryPoint
 import kotlinx.android.synthetic.main.activity_main.*
 
+// starting class/ main
 @AndroidEntryPoint
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+        // setting splash screen
+        setTheme(R.style.AppTheme)
+
         setContentView(R.layout.activity_main)
 
         navigateToTrackingFragmentIfNeeded(intent)

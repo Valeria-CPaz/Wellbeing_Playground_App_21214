@@ -2,6 +2,7 @@ package com.example.wellbeingplayground.others
 
 import android.graphics.Color
 
+// my constants
 object Constants {
     const val WALKING_DATABASE_NAME = "walking_db"
     const val REQUEST_CODE_LOCATION_PERMISSION = 0

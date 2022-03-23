@@ -1,16 +1,15 @@
 <resources>
 
     <style name="AppTheme" parent="Theme.MaterialComponents.NoActionBar">
+
         <!-- Original AppCompat attributes. -->
         <item name="colorPrimary">@color/yellow</item>
         <item name="colorSecondary">@color/yellow</item>
         <item name="android:colorBackground">@color/off_white</item>
         <item name="colorError">@color/errorColor</item>
-
         <!-- New MaterialComponents attributes. -->
         <item name="colorPrimaryVariant">@android:color/white</item>
         <item name="colorSecondaryVariant">@color/light_blue</item>
-
         <!--> toolbar color -->
         <item name="colorSurface">@color/dark_blue</item>
         <item name="colorOnPrimary">@color/sky_blue</item>
@@ -52,6 +51,13 @@
 
     <style name="PositiveButtonStyle" parent="Widget.MaterialComponents.Button.TextButton.Dialog">
         <item name="android:textColor">@color/dark_blue</item>
+    </style>
+
+    // setting Splash Screen
+    <style name="splashScreenTheme" parent="Theme.MaterialComponents.Light.NoActionBar" >
+        <item name="android:windowBackground">@drawable/splash_image</item>
+        <item name="android:statusBarColor">@color/sky_blue</item>
+
     </style>
 
 </resources>

@@ -14,14 +14,15 @@
         android:paddingTop="8dp"
         android:paddingBottom="8dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        android:popupBackground="@color/dark_blue"/>
 
     <TextView
         android:id="@+id/tvFilterBy"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Sort It By:"
-        android:textColor="@color/errorColor"
+        android:text="Sort By:"
+        android:textColor="@color/dark_blue"
         android:textSize="16sp"
         app:layout_constraintBottom_toBottomOf="@+id/spFilter"
         app:layout_constraintEnd_toStartOf="@+id/spFilter"

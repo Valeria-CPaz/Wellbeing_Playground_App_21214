@@ -14,6 +14,7 @@ import kotlinx.android.synthetic.main.item_walk.view.*
 import java.text.SimpleDateFormat
 import java.util.*
 
+// adapter class
 class WalkAdapter : RecyclerView.Adapter<WalkAdapter.WalkViewHolder>() {
 
     inner class WalkViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView)

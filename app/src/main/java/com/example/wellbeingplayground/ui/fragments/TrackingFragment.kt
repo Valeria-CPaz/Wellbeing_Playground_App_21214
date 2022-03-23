@@ -26,6 +26,7 @@ import java.util.*
 import javax.inject.Inject
 import kotlin.math.round
 
+// tracking class
 @AndroidEntryPoint
 class TrackingFragment : Fragment(R.layout.fragment_tracking) {
 

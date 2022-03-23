@@ -3,6 +3,7 @@ package com.example.wellbeingplayground.database
 import androidx.lifecycle.LiveData
 import androidx.room.*
 
+// queries for DB
 @Dao
 interface WalkDAO {
 

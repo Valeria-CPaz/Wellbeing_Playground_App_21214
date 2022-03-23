@@ -9,7 +9,7 @@
         android:id="@+id/clInnerLayout"
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        android:background="@color/dark_blue"
+        android:background="@color/sky_blue"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
@@ -20,10 +20,10 @@
             android:id="@+id/tvTimer"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:fontFamily="casual"
+            android:fontFamily="sans-serif-light"
             android:text="00:00:00:00"
-            android:textColor="@color/yellow"
-            android:textSize="50sp"
+            android:textColor="@color/off_white"
+            android:textSize="30sp"
             app:layout_constraintBottom_toTopOf="@+id/btnToggleWalk"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.5"
@@ -34,16 +34,16 @@
             android:id="@+id/btnToggleWalk"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:fontFamily="casual"
+            android:fontFamily="sans-serif-light"
+            android:textStyle="bold"
             android:text="Start"
             android:textColor="@color/off_white"
-            app:iconTint="@color/yellow"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toStartOf="@+id/btnFinishWalk"
             app:layout_constraintHorizontal_bias="0.5"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/tvTimer"
-            app:rippleColor="@color/yellow" />
+            app:layout_constraintTop_toBottomOf="@+id/tvTimer"/>
+
 
         <com.google.android.material.button.MaterialButton
             android:id="@+id/btnFinishWalk"
@@ -51,6 +51,9 @@
             android:layout_height="wrap_content"
             android:text="Finish Walk"
             android:visibility="gone"
+            android:fontFamily="sans-serif-light"
+            android:textColor="@color/off_white"
+            android:textStyle="bold"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.5"
@@ -76,11 +79,11 @@
 
     <com.google.android.gms.maps.MapView
         android:id="@+id/mapView"
-        android:layout_width="match_parent"
-        android:layout_height="0dp"
+        android:layout_width="412dp"
+        android:layout_height="442dp"
         app:layout_constraintBottom_toTopOf="@+id/clInnerLayout"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 

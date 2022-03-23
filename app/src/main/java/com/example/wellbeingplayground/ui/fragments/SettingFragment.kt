@@ -25,10 +25,10 @@ class SettingFragment : Fragment(R.layout.fragment_settings) {
         btnApplyChanges.setOnClickListener {
             val succes = applyChangesTOSharedPref()
             if (succes){
-                Snackbar.make(view,"Saved Changes",Snackbar.LENGTH_LONG).show()
+                Snackbar.make(view,"Changes Saved",Snackbar.LENGTH_LONG).show()
             }
             else{
-                Snackbar.make(view,"Please fill out all Fields ",Snackbar.LENGTH_LONG).show()
+                Snackbar.make(view,"Please fill out all fields ",Snackbar.LENGTH_LONG).show()
             }
         }
     }
